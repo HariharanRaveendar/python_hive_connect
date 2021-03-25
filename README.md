@@ -77,7 +77,8 @@ To edit this file before You need to create one directory in hadoop-2.8.0 and na
 
 # hadoopenv.cmd <h1>
   1. In this file you need put java path 
-  set JAVA_HOME=C:\Java\jdk1.8.0_202
+  
+  > set JAVA_HOME=C:\Java\jdk1.8.0_202
   
   ![image](https://user-images.githubusercontent.com/45985801/112506588-ebd1f500-8db3-11eb-94ee-d22c0bc1782b.png)
   
