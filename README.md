@@ -1,6 +1,7 @@
 # python_hive_connect
-Download java jdk in version of 1.8
-Download Hadoop version 2.8.0 https://hadoop.apache.org/release/2.8.0.html download the tar.gz file
+> Download java jdk in version of 1.8
+> 
+> Download Hadoop version 2.8.0 https://hadoop.apache.org/release/2.8.0.html download the tar.gz file
 and then we need to do some configuration in hadoop files.
 # Hadoop installation
 These files are list out in hadoop2.8.0/etc/hadoop/
