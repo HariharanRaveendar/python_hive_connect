@@ -184,6 +184,42 @@ Extrat those download files.
 
 ![image](https://user-images.githubusercontent.com/45985801/112519748-ad8f0280-8dc0-11eb-87dc-888f50447d1d.png)
 
+# Hive DataBase Connecting to Python <h1>
+> While using some pip you will face some erros(Visual Studio Build errors) To overcome this error we going to use one package[bitarray] 
+> 
+> Go to this Website https://www.lfd.uci.edu/~gohlke/pythonlibs/#bitarray go to bitarray area download the file which realated to your python version.
+> 
+![image](https://user-images.githubusercontent.com/45985801/112522048-327b1b80-8dc3-11eb-9557-ecbeb8dd34f7.png)
+1. And then go to the file downloaded area open the command promt and do install using pip commands
+> For example pip install bitarray-1.7.1-cp39-cp39-win_amd64.whl
+> 
+> pip install impyla
+> 
+> pip install thrift_sasl
+
+# All Packages Installed Perfectly
+> First Ensure that you hadoop,derby,hive is running or not, if you not run the hadoop,derby,hive means run the hadoop,derby,hive
+> 
+> Next Step you need to hive server with the help of this command `hive --service hiveserver2`.
+> 
+> ![image](https://user-images.githubusercontent.com/45985801/112523759-1aa49700-8dc5-11eb-83b6-fbfd3f085af9.png)
+
+# Finally Use These commad to connect hive in python
+> import impala
+> 
+> from impala.dbapi import connect
+> 
+> c=connect(port=10000).cursor()
+> 
+> c.execute("show databases")
+> 
+> c.fetchall()
+![image](https://user-images.githubusercontent.com/45985801/112524117-75d68980-8dc5-11eb-9649-d534a82653c7.png)
+
+
+
+ 
+
 
 
 
