@@ -64,6 +64,11 @@ To edit this file before You need to create one directory in hadoop-2.8.0 and na
   set JAVA_HOME=C:\Java\jdk1.8.0_202
   
   ![image](https://user-images.githubusercontent.com/45985801/112506588-ebd1f500-8db3-11eb-94ee-d22c0bc1782b.png)
+  
+# After These you have to add some files in hadoop-2.8.0/bin/
+1. Download the zip folder and extract it copy the bin folder and replace the bin in your hadoop-2.8.0/bin
+http://backend.onstep.in/hadoopconfig/
+
 
 # After All Doing this you need to add the path into the environment_variables
 ![image](https://user-images.githubusercontent.com/45985801/112507097-5edb6b80-8db4-11eb-89e0-95e59f6cc217.png)
